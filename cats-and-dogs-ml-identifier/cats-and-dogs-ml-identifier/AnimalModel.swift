@@ -16,10 +16,10 @@ class AnimalModel: ObservableObject{
     func getAnimal(){
         let stringUrl = Bool.random() ? catUrl: dogUrl //These are standard 4 steps for API call
         
-        //1. creat the url object
+        //1. create the url object
         let url = URL(string: stringUrl)
         
-        //2. check oif url is empty
+        //2. check if url is empty
         guard url != nil else{
             print("couldn't create url")
             return}
