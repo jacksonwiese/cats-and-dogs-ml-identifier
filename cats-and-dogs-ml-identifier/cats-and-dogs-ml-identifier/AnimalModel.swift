@@ -54,7 +54,9 @@ class AnimalModel: ObservableObject{
                 
             }
         } //end of let dataTask
+        
         //5. resume data task
         dataTask.resume()
+        
     }//end of function get animal
 }
